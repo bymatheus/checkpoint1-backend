@@ -37,15 +37,15 @@
             return 0;
         }
 
-        if ($valorBaseIR2 >= 1903.9 || $valorBaseIR2 <= 2826.65) {
+        if ($valorBaseIR2 >= 1903.9 and $valorBaseIR2 <= 2826.65) {
             return ($valorBaseIR2 / 100 * 7.5) - 142.80;
         }
 
-        if ($valorBaseIR2 >= 2826.6 || $valorBaseIR2 <= 3751.05) {
+        if ($valorBaseIR2 >= 2826.6 and $valorBaseIR2 <= 3751.05) {
             return ($valorBaseIR2 / 100 * 15) - 354.80;
         }
 
-        if ($valorBaseIR2 >= 3751.06 || $valorBaseIR2 <= 4664.68) {
+        if ($valorBaseIR2 >= 3751.06 and $valorBaseIR2 <= 4664.68) {
             return ($valorBaseIR2 / 100 * 22.5) - 636.13;
         }
 
